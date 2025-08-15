@@ -11,7 +11,7 @@ A log file will be generated in the log folder.
 A backup of the resource groups previous tags and values will be created in the backup folder.
 
 .EXAMPLE
-CSV should be as below and saved as tags.csv in c:\temp\tags unless you specify differently under the config section
+CSV should be formatted as below or see the example file and saved as tags.csv in c:\temp\tags unless you specify differently under the config section
 
 +---------------+-------+-------+-------------+
 | RESOURCEGROUP | OS    | OWNER | ENVIRONMENT |
