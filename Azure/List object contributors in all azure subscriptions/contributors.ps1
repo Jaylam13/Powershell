@@ -17,7 +17,7 @@ This script will connect to Azure and cycle through all subscriptions listing al
 .NOTES
     Keep in mind this will only be able to look at subscriptions you have permissions to.
     This will also skip the Visual studio subscription using a if the name like 'visual' statement
-### >
+###>
 
 ###  Config and clear screen
 cls

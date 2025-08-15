@@ -13,7 +13,7 @@ every XXX numbers of lines (set in the config)
 
 .NOTES
 
-### >
+###>
 
 ###  Config
 $FilesToSplitDir = "Files_to_split\"
