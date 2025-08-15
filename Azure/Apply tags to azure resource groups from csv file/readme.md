@@ -9,6 +9,7 @@ A backup of the resource groups previous tags and values will be created in the 
 CSV should be as below and saved as tags.csv in c:\temp\tags unless you specify differently under the config section
 
 +---------------+-------+-------+-------------+
+
 | RESOURCEGROUP | OS    | OWNER | ENVIRONMENT |
 |---------------+-------+-------+-------------|
 | RG-UKS-Test   | LINUX | JAMES | PRODUCTION  |
