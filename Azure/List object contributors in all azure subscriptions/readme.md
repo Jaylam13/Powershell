@@ -4,7 +4,8 @@ The below script will loop through all Azure subscriptions excluding Visual Stud
 
 Example below:
 
-!\[Alt text](screenshot01.png?raw=true "Optional Title")
+![Alt text](screenshot01.png?raw=true "Optional Title")
 
-!\[Alt text](screenshot02.png?raw=true "Optional Title")
+![Alt text](screenshot02.png?raw=true "Optional Title")
+
 
