@@ -11,6 +11,10 @@ CSV should be as below and saved as tags.csv in c:\temp\tags unless you specify 
 +---------------+-------+-------+-------------+
 
 | RESOURCEGROUP | OS    | OWNER | ENVIRONMENT |
+
 |---------------+-------+-------+-------------|
+
 | RG-UKS-Test   | LINUX | JAMES | PRODUCTION  |
+
 +---------------+-------+-------+-------------+
+
