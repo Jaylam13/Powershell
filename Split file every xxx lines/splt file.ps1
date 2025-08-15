@@ -1,5 +1,7 @@
 <#
 .SYNOPSIS
+Created by James Lambert
+www.roonics.com
 
 .DESCRIPTION
 This script will get a list of all files in the "Files_to_split folder" then loop through each file and split
@@ -53,6 +55,6 @@ else {
     foreach ($filesToSplit in $FilesToSplits) {
         Write-Host "Splitting -"$FilesToSplit -ForegroundColor Green
         $i = 0
-        Get-Content $FilesToSplitDir$FilesToSplit -ReadCount $SplitFileLines | % { $i++; Write-Host $padding$SplitFilesDir$i"_"$FilesToSplit; $_ | Out-File $SplitFilesDir$i"_"$FilesToSplit }
+        Get-Content $FilesToSplitDir$FilesToSplit -ReadCount $SplitFileLines | % { $i++; Write-Host $padding$SplitFilesDir$i"_"$FilesToSplit; $_ | Out-File $SplitFilesDir$i"_"$FilesToSplit -Encoding utf8}
     }
 }
